@@ -1,0 +1,12 @@
+res://Scenes/Main.tscn
+res://Scripts/Shaders/Outline.gdshader
+res://Scenes/Player.tscn
+res://Scenes/Card.tscn
+res://Scripts/Cards/Fireball.gd
+res://Scripts/Main.gd
+res://Scripts/Cards/Lorem_Ipsum.gd
+res://Scripts/Card.gd
+res://Scripts/Deck.gd
+res://Scenes/Card_test].gd
+res://Scenes/Card_test].tscn
+res://Scenes/CardTest2.tscn

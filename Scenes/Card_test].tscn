@@ -1,0 +1,148 @@
+[gd_scene load_steps=12 format=3 uid="uid://bhtkyeepqqhju"]
+
+[ext_resource type="Script" path="res://Scenes/Card_test].gd" id="1_0jx7w"]
+[ext_resource type="Texture2D" uid="uid://ufndwu6ejogi" path="res://Data/Textures/Cards/placeholder_base.png" id="2_0oboy"]
+[ext_resource type="FontFile" uid="uid://de7teqgapvrgo" path="res://alagard.ttf" id="3_2njt7"]
+[ext_resource type="Texture2D" uid="uid://cn31erecssrts" path="res://Data/Textures/Cards/placeholder_img.jpg" id="4_ddqrb"]
+[ext_resource type="Texture2D" uid="uid://dy1veogb2navd" path="res://Data/Textures/Cards/placeholder_seal.png" id="5_rrlos"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gdffl"]
+size = Vector2(250, 350)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_cc7so"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_qp4ci"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_rkkll"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_mmf8b"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_2ea0e"]
+
+[node name="Card" type="Area2D"]
+collision_priority = 100.0
+script = ExtResource("1_0jx7w")
+
+[node name="Hitbox" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_gdffl")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -125.0
+offset_top = -175.0
+offset_right = 125.0
+offset_bottom = 175.0
+mouse_filter = 2
+
+[node name="BackgroundContainer" type="PanelContainer" parent="Control"]
+layout_mode = 0
+offset_right = 250.0
+offset_bottom = 350.0
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxEmpty_cc7so")
+
+[node name="Background" type="TextureRect" parent="Control/BackgroundContainer"]
+layout_mode = 2
+mouse_filter = 2
+texture = ExtResource("2_0oboy")
+
+[node name="TitleContainer" type="PanelContainer" parent="Control"]
+layout_mode = 0
+offset_left = 30.0
+offset_top = 30.0
+offset_right = 185.0
+offset_bottom = 60.0
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxEmpty_qp4ci")
+
+[node name="Title" type="RichTextLabel" parent="Control/TitleContainer"]
+layout_direction = 2
+layout_mode = 2
+size_flags_vertical = 4
+mouse_filter = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 9
+theme_override_fonts/normal_font = ExtResource("3_2njt7")
+theme_override_font_sizes/normal_font_size = 32
+text = "Hadouken"
+fit_content = true
+
+[node name="ImageContainer" type="PanelContainer" parent="Control"]
+layout_mode = 0
+offset_left = 30.0
+offset_top = 60.0
+offset_right = 220.0
+offset_bottom = 165.0
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxEmpty_rkkll")
+
+[node name="Image" type="TextureRect" parent="Control/ImageContainer"]
+layout_mode = 2
+mouse_filter = 2
+texture = ExtResource("4_ddqrb")
+expand_mode = 1
+
+[node name="DescriptionContainer" type="PanelContainer" parent="Control"]
+layout_mode = 0
+offset_left = 30.0
+offset_top = 170.0
+offset_right = 220.0
+offset_bottom = 320.0
+size_flags_horizontal = 0
+size_flags_vertical = 0
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxEmpty_mmf8b")
+
+[node name="Description" type="RichTextLabel" parent="Control/DescriptionContainer"]
+layout_direction = 2
+layout_mode = 2
+mouse_filter = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 5
+theme_override_fonts/normal_font = ExtResource("3_2njt7")
+text = "Lorem ipsum dolor sit amet"
+fit_content = true
+
+[node name="SealContainer" type="PanelContainer" parent="Control"]
+layout_mode = 0
+offset_right = 250.0
+offset_bottom = 350.0
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxEmpty_cc7so")
+
+[node name="Seal" type="TextureRect" parent="Control/SealContainer"]
+layout_mode = 2
+mouse_filter = 2
+texture = ExtResource("5_rrlos")
+
+[node name="CostContainer" type="PanelContainer" parent="Control"]
+layout_mode = 0
+offset_left = 200.0
+offset_top = 15.0
+offset_right = 235.0
+offset_bottom = 50.0
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxEmpty_2ea0e")
+
+[node name="Cost" type="RichTextLabel" parent="Control/CostContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+size_flags_stretch_ratio = 12.03
+mouse_filter = 2
+theme_override_colors/default_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 9
+theme_override_fonts/normal_font = ExtResource("3_2njt7")
+theme_override_font_sizes/normal_font_size = 32
+text = "2"
+fit_content = true
+autowrap_mode = 0
+
+[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="." to="." method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="Control/BackgroundContainer/Background" to="." method="_on_background_mouse_entered"]
+[connection signal="mouse_exited" from="Control/BackgroundContainer/Background" to="." method="_on_background_mouse_exited"]
