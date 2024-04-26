@@ -1,65 +1,66 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1712932036
-alagard.ttf::FontFile::7507239129462847030::1372811710::1712800911::1::::<><>::
-icon.svg::CompressedTexture2D::4643611682317787885::1712693809::1712693817::1::::<><>::
-upheavtt.ttf::FontFile::8187096250078487802::1008996180::1712803082::1::::<><>::
-::res://Data/::1712927721
-::res://Data/Sounds/::1712927283
-Drop.wav::AudioStreamWAV::5346755487339647789::1572835928::1712702968::1::::<><>::
-Forbidden.wav::AudioStreamWAV::519719862702509043::1643893961::1712712870::1::::<><>::
-Hover.wav::AudioStreamWAV::6714793357668465572::1643893627::1712697800::1::::<><>::
-Select.ogg::AudioStreamOggVorbis::7255957453956122423::1652481675::1712697800::1::::<><>::
-Select.wav::AudioStreamWAV::4624428439216034418::1572835944::1712703011::1::::<><>::
-::res://Data/Sounds/Cards/::1712927283
-Draw.wav::AudioStreamWAV::5198695527003067485::1544293936::1712806289::1::::<><>::
-Play1.wav::AudioStreamWAV::7061604249303393197::1544294058::1712806289::1::::<><>::
-Play2.wav::AudioStreamWAV::7388321708571911380::1544294065::1712806289::1::::<><>::
-::res://Data/Textures/::1712927721
-bridge_iso 64x64-export.png::CompressedTexture2D::8425408177973435492::1712490256::1712695297::1::::<><>::
-cliffs_iso 32x32-export.png::CompressedTexture2D::7910454127999551685::1712490444::1712694464::1::::<><>::
-cliffs_water_iso 32x32-Sheet-export.png::CompressedTexture2D::7768604289836120158::1712490868::1712695297::1::::<><>::
-cliff_iso_32x64-export.png::CompressedTexture2D::6764788564012329551::1712490291::1712695297::1::::<><>::
-decorations_iso 32x32-export.png::CompressedTexture2D::8419041917610132608::1712490827::1712695297::1::::<><>::
-grass_iso 32x32-export.png::CompressedTexture2D::6626010390507631433::1712490574::1712695297::1::::<><>::
-trees_iso 96x96-export.png::CompressedTexture2D::5236427524303885070::1712490666::1712695297::1::::<><>::
-::res://Data/Textures/Arena/::1712927283
-select.png::CompressedTexture2D::1350286164496072107::1712699999::1712700001::1::::<><>::
-spritesheet.png::CompressedTexture2D::7127588716992298413::1662960855::1712699031::1::::<><>::
-::res://Data/Textures/Cards/::1712927721
-Fireball.png::CompressedTexture2D::2816504710938899353::1680156210::1712803942::1::::<><>::
+::res://::1713913962
+alagard.ttf::FontFile::7507239129462847030::1712933124::1712933124::1::::<><>::
+icon.svg::CompressedTexture2D::4643611682317787885::1712933124::1712933125::1::::<><>::
+upheavtt.ttf::FontFile::8187096250078487802::1712933124::1712933124::1::::<><>::
+::res://Data/::1713913491
+::res://Data/Sounds/::1712933126
+Drop.wav::AudioStreamWAV::5346755487339647789::1712933155::1712933153::1::::<><>::
+Forbidden.wav::AudioStreamWAV::519719862702509043::1712933162::1712933162::1::::<><>::
+Hover.wav::AudioStreamWAV::6714793357668465572::1712933154::1712933154::1::::<><>::
+Select.ogg::AudioStreamOggVorbis::7255957453956122423::1712933155::1712933155::1::::<><>::
+Select.wav::AudioStreamWAV::4624428439216034418::1712933155::1712933154::1::::<><>::
+::res://Data/Sounds/Cards/::1712933129
+Draw.wav::AudioStreamWAV::5198695527003067485::1712933178::1712933178::1::::<><>::
+Play1.wav::AudioStreamWAV::7061604249303393197::1712933179::1712933178::1::::<><>::
+Play2.wav::AudioStreamWAV::7388321708571911380::1712933178::1712933177::1::::<><>::
+::res://Data/Textures/::1712933126
+bridge_iso 64x64-export.png::CompressedTexture2D::8425408177973435492::1712933153::1712933177::1::::<><>::
+cliffs_iso 32x32-export.png::CompressedTexture2D::7910454127999551685::1712933152::1712933147::1::::<><>::
+cliffs_water_iso 32x32-Sheet-export.png::CompressedTexture2D::7768604289836120158::1712933177::1712933147::1::::<><>::
+cliff_iso_32x64-export.png::CompressedTexture2D::6764788564012329551::1712933153::1712933147::1::::<><>::
+decorations_iso 32x32-export.png::CompressedTexture2D::8419041917610132608::1712933177::1712933147::1::::<><>::
+grass_iso 32x32-export.png::CompressedTexture2D::6626010390507631433::1712933153::1712933147::1::::<><>::
+trees_iso 96x96-export.png::CompressedTexture2D::5236427524303885070::1712933152::1712933177::1::::<><>::
+::res://Data/Textures/Arena/::1712933128
+select.png::CompressedTexture2D::1350286164496072107::1712933176::1712933176::1::::<><>::
+spritesheet.png::CompressedTexture2D::7127588716992298413::1712933177::1712933176::1::::<><>::
+::res://Data/Textures/Cards/::1712933128
+Fireball.png::CompressedTexture2D::2816504710938899353::1712933173::1712933171::1::::<><>::
 Lorem_Ipsum.png::CompressedTexture2D::7725968724271692636::1712927687::1712927718::1::::<><>::
-placeholder_base.png::CompressedTexture2D::1414894627642630388::1712803396::1712803397::1::::<><>::
-placeholder_img.jpg::CompressedTexture2D::5744685595973667276::1520382272::1712803489::1::::<><>::
-placeholder_seal.png::CompressedTexture2D::8898751064699106565::1712803526::1712803528::1::::<><>::
-::res://Data/Textures/Characters/::1712927303
-::res://Data/Textures/Characters/Boar/::1712927303
-boar_NE_idle_strip.png::CompressedTexture2D::8912829339705695267::1663053121::1712698390::1::::<><>::
-boar_NE_run_strip.png::CompressedTexture2D::8868933389395394525::1663053067::1712698390::1::::<><>::
-boar_NW_idle_strip.png::CompressedTexture2D::1675900536104491098::1663051718::1712698390::1::::<><>::
-boar_NW_run_strip.png::CompressedTexture2D::4336402257382391583::1663052988::1712698390::1::::<><>::
-boar_SE_idle_strip.png::CompressedTexture2D::7848148815765480900::1663051570::1712698389::1::::<><>::
-boar_SE_run_strip.png::CompressedTexture2D::3287520460916605851::1663051462::1712698389::1::::<><>::
-boar_SW_idle_strip.png::CompressedTexture2D::4550542643987962657::1663050640::1712698389::1::::<><>::
-boar_SW_run_strip.png::CompressedTexture2D::6954712871471338530::1663051179::1712698390::1::::<><>::
-::res://Scenes/::1712932036
-Card.tscn::PackedScene::8758363342639226191::1712931954::0::1::::<><>::res://Scripts/Card.gd<>uid://ufndwu6ejogi::::res://Data/Textures/Cards/placeholder_base.png<>uid://de7teqgapvrgo::::res://alagard.ttf<>uid://cn31erecssrts::::res://Data/Textures/Cards/placeholder_img.jpg<>uid://dy1veogb2navd::::res://Data/Textures/Cards/placeholder_seal.png<>res://Scripts/Components/OutlineComponent.gd
-CardTest2.tscn::PackedScene::4646480537655926884::1712932021::0::1::::<><>::res://Scripts/Card.gd<>uid://ufndwu6ejogi::::res://Data/Textures/Cards/placeholder_base.png<>uid://de7teqgapvrgo::::res://alagard.ttf<>uid://cn31erecssrts::::res://Data/Textures/Cards/placeholder_img.jpg<>uid://dy1veogb2navd::::res://Data/Textures/Cards/placeholder_seal.png<>res://Scripts/Components/OutlineComponent.gd
-Main.tscn::PackedScene::4026138911067631767::1712931954::0::1::::<><>::res://Scripts/Main.gd<>uid://c8swlyuu4evdd::::res://Data/Textures/Arena/spritesheet.png<>uid://tidask75h4ex::::res://Data/Textures/Arena/select.png<>uid://c3m6cxw4gnw5t::::res://Data/Textures/cliff_iso_32x64-export.png<>res://Scripts/Arena.gd<>res://Scripts/AudioPlayer.gd<>uid://b65dwp3mu5tla::::res://Data/Sounds/Select.wav<>uid://c2wxwvnccew5q::::res://Data/Sounds/Hover.wav<>uid://cigajtwfrlf5v::::res://Data/Sounds/Drop.wav<>uid://x7078juy0i06::::res://Scenes/Player.tscn<>uid://hn0ye871abl0::::res://Data/Sounds/Forbidden.wav<>uid://c7uxucmcx7ncf::::res://Data/Sounds/Cards/Play1.wav<>res://Scripts/Shaders/Outline.gdshader<>res://Scripts/Components/MovableComponent.gd<>uid://cgcj0xxuqj3c8::::res://Data/Sounds/Cards/Draw.wav<>res://Scripts/Components/OutlineComponent.gd<>res://Scripts/Deck.gd
-Player.tscn::PackedScene::1681980310144343705::1712931954::0::1::::<><>::res://Scripts/Player.gd<>uid://dy8o85t3gblcl::::res://Data/Textures/Characters/Boar/boar_NE_idle_strip.png<>res://Scripts/Shaders/Outline.gdshader<>uid://x423pstf77bi::::res://Data/Textures/Characters/Boar/boar_NW_idle_strip.png<>uid://dj2x4nhcoqjb5::::res://Data/Textures/Characters/Boar/boar_SE_idle_strip.png<>uid://b53k1jaq0mw0h::::res://Data/Textures/Characters/Boar/boar_SW_idle_strip.png
-Card_test].tscn::PackedScene::2917616012444013890::1712932043::0::1::::<><>::res://Scripts/Card.gd<>uid://ufndwu6ejogi::::res://Data/Textures/Cards/placeholder_base.png<>uid://de7teqgapvrgo::::res://alagard.ttf<>uid://cn31erecssrts::::res://Data/Textures/Cards/placeholder_img.jpg<>uid://dy1veogb2navd::::res://Data/Textures/Cards/placeholder_seal.png<>res://Scripts/Components/OutlineComponent.gd
-::res://Scenes/Cards/::1712927223
-::res://Scripts/::1712931957
-Arena.gd::GDScript::-1::1712796399::0::1::::<>TileMap<>::
-AudioPlayer.gd::GDScript::-1::1712712901::0::1::::<>Node<>::
-Card.gd::GDScript::-1::1712931954::0::1::::<>Node2D<>::
+placeholder_base.png::CompressedTexture2D::1414894627642630388::1712933186::1712933172::1::::<><>::
+placeholder_img.jpg::CompressedTexture2D::5744685595973667276::1712933171::1712933172::1::::<><>::
+placeholder_seal.png::CompressedTexture2D::8898751064699106565::1712933172::1712933172::1::::<><>::
+::res://Data/Textures/Characters/::1712933129
+::res://Data/Textures/Characters/Boar/::1712933135
+boar_NE_idle_strip.png::CompressedTexture2D::8912829339705695267::1712933187::1712933195::1::::<><>::
+boar_NE_run_strip.png::CompressedTexture2D::8868933389395394525::1712933188::1712933187::1::::<><>::
+boar_NW_idle_strip.png::CompressedTexture2D::1675900536104491098::1712933194::1712933188::1::::<><>::
+boar_NW_run_strip.png::CompressedTexture2D::4336402257382391583::1712933188::1712933195::1::::<><>::
+boar_SE_idle_strip.png::CompressedTexture2D::7848148815765480900::1712933187::1712933188::1::::<><>::
+boar_SE_run_strip.png::CompressedTexture2D::3287520460916605851::1712933188::1712933187::1::::<><>::
+boar_SW_idle_strip.png::CompressedTexture2D::4550542643987962657::1712933195::1712933194::1::::<><>::
+boar_SW_run_strip.png::CompressedTexture2D::6954712871471338530::1712933188::1712933194::1::::<><>::
+::res://Scenes/::1712933123
+Card.tscn::PackedScene::8758363342639226191::1712933136::0::1::::<><>::res://Scripts/Card.gd<>uid://ufndwu6ejogi::::res://Data/Textures/Cards/placeholder_base.png<>uid://de7teqgapvrgo::::res://alagard.ttf<>uid://cn31erecssrts::::res://Data/Textures/Cards/placeholder_img.jpg<>uid://dy1veogb2navd::::res://Data/Textures/Cards/placeholder_seal.png<>res://Scripts/Components/OutlineComponent.gd
+CardTest2.tscn::PackedScene::4646480537655926884::1712932345::0::1::::<><>::
+Card_test].gd::GDScript::-1::1712932597::0::1::::<>Area2D<>::
+Card_test].tscn::PackedScene::2917616012444013890::1712933033::0::1::::<><>::res://Scenes/Card_test].gd<>uid://ufndwu6ejogi::::res://Data/Textures/Cards/placeholder_base.png<>uid://de7teqgapvrgo::::res://alagard.ttf<>uid://cn31erecssrts::::res://Data/Textures/Cards/placeholder_img.jpg<>uid://dy1veogb2navd::::res://Data/Textures/Cards/placeholder_seal.png
+Main.tscn::PackedScene::4026138911067631767::1712933135::0::1::::<><>::res://Scripts/Main.gd<>uid://c8swlyuu4evdd::::res://Data/Textures/Arena/spritesheet.png<>uid://tidask75h4ex::::res://Data/Textures/Arena/select.png<>uid://c3m6cxw4gnw5t::::res://Data/Textures/cliff_iso_32x64-export.png<>res://Scripts/Arena.gd<>res://Scripts/AudioPlayer.gd<>uid://b65dwp3mu5tla::::res://Data/Sounds/Select.wav<>uid://c2wxwvnccew5q::::res://Data/Sounds/Hover.wav<>uid://cigajtwfrlf5v::::res://Data/Sounds/Drop.wav<>uid://x7078juy0i06::::res://Scenes/Player.tscn<>uid://hn0ye871abl0::::res://Data/Sounds/Forbidden.wav<>uid://c7uxucmcx7ncf::::res://Data/Sounds/Cards/Play1.wav<>res://Scripts/Shaders/Outline.gdshader<>res://Scripts/Components/MovableComponent.gd<>uid://cgcj0xxuqj3c8::::res://Data/Sounds/Cards/Draw.wav<>res://Scripts/Components/OutlineComponent.gd<>res://Scripts/Deck.gd
+Player.tscn::PackedScene::1681980310144343705::1712933136::0::1::::<><>::res://Scripts/Player.gd<>uid://dy8o85t3gblcl::::res://Data/Textures/Characters/Boar/boar_NE_idle_strip.png<>res://Scripts/Shaders/Outline.gdshader<>uid://x423pstf77bi::::res://Data/Textures/Characters/Boar/boar_NW_idle_strip.png<>uid://dj2x4nhcoqjb5::::res://Data/Textures/Characters/Boar/boar_SE_idle_strip.png<>uid://b53k1jaq0mw0h::::res://Data/Textures/Characters/Boar/boar_SW_idle_strip.png
+::res://Scenes/Cards/::1712933124
+::res://Scripts/::1713913491
+Arena.gd::GDScript::-1::1712933138::0::1::::<>TileMap<>::
+AudioPlayer.gd::GDScript::-1::1712933137::0::1::::<>Node<>::
+Card.gd::GDScript::-1::1712933137::0::1::::<>Node2D<>::
 Deck.gd::GDScript::-1::1712930365::0::1::::<>Area2D<>::
-Main.gd::GDScript::-1::1712931835::0::1::::<>Node2D<>::
-Player.gd::GDScript::-1::1712797633::0::1::::<>CharacterBody2D<>::
-::res://Scripts/Cards/::1712927821
-Fireball.gd::GDScript::-1::1712927530::0::1::::<>Node<>::
+Main.gd::GDScript::-1::1712933138::0::1::::<>Node2D<>::
+Player.gd::GDScript::-1::1712933137::0::1::::<>CharacterBody2D<>::
+::res://Scripts/Cards/::1712933125
+Fireball.gd::GDScript::-1::1712933147::0::1::::<>Node<>::
 Lorem_Ipsum.gd::GDScript::-1::1712927816::0::1::::<>Node<>::
-::res://Scripts/Components/::1712927247
-MovableComponent.gd::GDScript::-1::1712815383::0::1::::<>Node<>::
-OutlineComponent.gd::GDScript::-1::1712809772::0::1::::<>Node<>::
-::res://Scripts/Shaders/::1712931986
-Outline.gdshader::Shader::-1::1712931986::0::1::::<><>::
+::res://Scripts/Components/::1712933126
+MovableComponent.gd::GDScript::-1::1712933153::0::1::::<>Node<>::
+OutlineComponent.gd::GDScript::-1::1712933153::0::1::::<>Node<>::
+::res://Scripts/Shaders/::1712933126
+Outline.gdshader::Shader::-1::1712933153::0::1::::<><>::
