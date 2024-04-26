@@ -12,3 +12,4 @@ data_*/
 
 # Cache
 .godot/*
+.godot/uid_cache.bin
